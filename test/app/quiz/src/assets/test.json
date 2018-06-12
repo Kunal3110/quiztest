@@ -1,0 +1,34 @@
+[
+
+
+
+{
+    "qno":"q1",
+    "question":"Who has the most runs in the crcket as batsman?",
+    "options":{"a":"Sachin Tendulkar","b":"Rahul Dravid","c":"Ricky Ponting","d":"MS Dhoni"},
+    "correct":"Sachin Tendulkar"
+},
+{
+    "qno":"q2",
+    "question":"Which is the largest state in India?",
+    "options":{"a":"Rajasthan","b":"Maharashtra","c":"Kerala","d":"UP"},
+    "correct":"Rajasthan"
+
+},
+{
+    "qno":"q3",
+    "question":"Which is the most venomous snake among the follwoing?",
+    "options":{"a":"Cobra","b":"Black Mamba","c":"Rattle Snake","d":"Diamond Snake"},
+    "correct":"Black Mamba"
+
+},
+{
+    "qno":"q4",
+    "question":"Which is the biggest country in terms of area?",
+    "options":{"a":"US","b":"China","c":"Russia","d":"Australia"},
+    "correct":"Russia"
+
+}
+
+
+]

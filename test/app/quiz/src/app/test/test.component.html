@@ -1,0 +1,25 @@
+<h2>Objective question paper</h2>
+
+<table border ="7" align = "center">
+<ng-container *ngFor='let q of questions; let i = index'>
+<tr>
+  <td>{{(i+1)}}</td>
+  <td>{{q.question}}<br>
+  <input type="radio" name={{q.qno}} [(ngModel)]='q.qno' value={{q.options.a}}>
+  a) {{q.options.a}}
+  <input type="radio" name={{q.qno}} [(ngModel)]='q.qno' value={{q.options.b}}>
+  b) {{q.options.b}}
+  <input type="radio" name={{q.qno}} [(ngModel)]='q.qno' value={{q.options.c}}>
+  c) {{q.options.c}}
+  <input type="radio" name={{q.qno}} [(ngModel)]='q.qno' value={{q.options.d}}>
+  d) {{q.options.d}}
+  </td>
+</tr>
+
+</ng-container>
+
+
+
+</table>
+<button (click)='calculateScore()'>Submit</button>
+{{msg}}
